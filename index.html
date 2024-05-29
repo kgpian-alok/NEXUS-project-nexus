@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./styleSignUp.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <script src="./signUp.js"></script>
+    <div class="wrapper">
+        <form action="./submitted.html" onsubmit="return validity()">
+            <h1>Register</h1>
+            <div class="input-box">
+                <input type="text" id="name" placeholder="Name">
+                <i class='bx bxs-user-detail'></i>
+            </div>
+            <div class="input-box">
+                <input type="text" id="username" placeholder="Username">
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" id="pass" placeholder="Password">
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" id="cnfPass" placeholder="Confirm Password">
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <div class="sign-in">
+                <p>Already registered user?  <a href="./SignIn.html">Sign in</a></p>
+            </div>
+                <button type="submit" class="btn">Register/Sign up</button>
+        </form>
+    </div>
+</body>
